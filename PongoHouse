@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pongohouse productions</title>
+    <style>
+        body {
+            background-color: #1e1e1e;
+            color: #cccccc;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333333;
+            padding: 20px;
+            text-align: center;
+            font-size: 2em;
+            color: #ffffff;
+        }
+        nav {
+            background-color: #444444;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #cccccc;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 1.2em;
+        }
+        nav a:hover {
+            color: #ffffff;
+        }
+        .content {
+            padding: 20px;
+        }
+        .section-title {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+            color: #ffffff;
+        }
+        .game-list, .news-list, .channel-list {
+            list-style: none;
+            padding: 0;
+        }
+        .game-list li, .news-list li, .channel-list li {
+            background-color: #2e2e2e;
+            margin-bottom: 10px;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .game-list li a, .news-list li a, .channel-list li a {
+            color: #66ccff;
+            text-decoration: none;
+        }
+        footer {
+            background-color: #333333;
+            color: #cccccc;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    pongohouse productions
+</header>
+
+<nav>
+    <a href="#videojuegos">Videojuegos</a>
+    <a href="#noticias">Noticias</a>
+    <a href="#canales">Canales</a>
+    <a href="#contacto">Contacto</a>
+</nav>
+
+<div class="content">
+    <section id="videojuegos">
+        <h2 class="section-title">Videojuegos</h2>
+        <ul class="game-list">
+            <li><a href="#">Juego 1</a> - Descripción breve del juego 1.</li>
+            <li><a href="#">Juego 2</a> - Descripción breve del juego 2.</li>
+            <!-- Añadir más juegos según sea necesario -->
+        </ul>
+    </section>
+
+    <section id="noticias">
+        <h2 class="section-title">Noticias</h2>
+        <ul class="news-list">
+            <li><a href="#">Noticia 1</a> - Descripción breve de la noticia 1.</li>
+            <li><a href="#">Noticia 2</a> - Descripción breve de la noticia 2.</li>
+            <!-- Añadir más noticias según sea necesario -->
+        </ul>
+    </section>
+
+    <section id="canales">
+        <h2 class="section-title">Canales</h2>
+        <ul class="channel-list">
+            <li><a href="#">YouTube</a> - Canal de YouTube de Pongohouse.</li>
+            <li><a href="#">Twitch</a> - Canal de Twitch de Pongohouse.</li>
+            <!-- Añadir más canales según sea necesario -->
+        </ul>
+    </section>
+
+    <section id="contacto">
+        <h2 class="section-title">Contacto</h2>
+        <p>Puedes seguirme en mis redes sociales o enviarme un mensaje directamente desde aquí.</p>
+        <form>
+            <label for="name">Nombre:</label><br>
+            <input type="text" id="name" name="name"><br><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br><br>
+            <label for="message">Mensaje:</label><br>
+            <textarea id="message" name="message" rows="4"></textarea><br><br>
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+</div>
+
+<footer>
+    &copy; 2024 pongohouse productions. Todos los derechos reservados.
+</footer>
+
+</body>
+</html>
